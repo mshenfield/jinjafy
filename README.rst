@@ -15,12 +15,12 @@ Usage
     $ jinjafy --help
     usage: jinjafy [-h] [-v] filepath [key=value [key=value ...]]
     ...
+
     $ cat ru.j2
-    Ben De La {{creme}}
-    $ jinjafy ru.j2 creme=Christ
-    Ben De La Christ
-    $ jinjafy ru.j2 creme="Christ, Series Winner" # Quote spaces to include them in values
-    Ben De La Christ, Series Winner
+    Ben De La {{creme}}, {{allstar}}
+
+    $ jinjafy ru.j2 creme=Christ allstar="All Star"
+    Ben De La Christ, All Start
 
 Development
 -----------
