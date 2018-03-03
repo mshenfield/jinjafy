@@ -20,7 +20,7 @@ Usage
     Ben De La {{creme}}, {{allstar}}
 
     $ jinjafy ru.j2 creme=Christ allstar="All Star"
-    Ben De La Christ, All Start
+    Ben De La Christ, All Star
 
 Development
 -----------
