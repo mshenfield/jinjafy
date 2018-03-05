@@ -24,7 +24,7 @@ Usage
 
 Development
 -----------
-This project uses [`Pipenv`](docs.pipenv.org) to isolate development environments. To test::
+This project uses `Pipenv <docs.pipenv.org>`_ to isolate development environments. To test::
 
     $ pipenv shell
     pytest
